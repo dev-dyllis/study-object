@@ -1,4 +1,5 @@
 package chapter1
+
 data class Theater(
     private val ticketSeller: TicketSeller
 ) {

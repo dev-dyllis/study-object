@@ -1,4 +1,5 @@
 package chapter1
+
 data class Audience(
     private val bag: Bag
 ) {

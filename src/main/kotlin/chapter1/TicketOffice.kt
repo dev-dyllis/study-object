@@ -1,4 +1,5 @@
 package chapter1
+
 data class TicketOffice(
     var amount: Long,
     val tickets: MutableList<Ticket> = mutableListOf()

@@ -1,4 +1,5 @@
 package chapter1
+
 data class TicketSeller(
     private val ticketOffice: TicketOffice
 ) {
