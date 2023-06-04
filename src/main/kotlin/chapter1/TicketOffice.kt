@@ -13,10 +13,6 @@ data class TicketOffice(
         return tickets.removeFirst()
     }
 
-    fun minusAmount(amount: Long) {
-        this.amount -= amount
-    }
-
     private fun plusAmount(amount: Long) {
         this.amount += amount
     }
